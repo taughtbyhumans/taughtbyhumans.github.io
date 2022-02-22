@@ -420,7 +420,7 @@ button.spreadsheet-choice:disabled {
 	.home, .spreadsheet-school, .short-sweet {
 		height: 100%;
 		min-height: 100% !important;
-		max-width: 100vw;  
+		max-width: 99vw;  
 		background-image: url("img/triangles-small.png");
 		background-position: center;
 		background-repeat: repeat-y;
@@ -651,8 +651,8 @@ button.topic:disabled {
 	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
-	width: 100%;
-	max-width: 460px;
+	width: 60%;
+	max-width: 400px;
 	position: relative;
 	cursor: pointer;
 	transform: rotate(-2deg);
@@ -681,7 +681,7 @@ button.topic:disabled {
   
   @media (min-width: 768px) {
 	.button {
-	  padding: .75rem 3rem;
+	  padding: .75rem 2rem;
 	  font-size: 1.25rem;
 	}
   }
@@ -698,7 +698,7 @@ button.topic:disabled {
 	margin: auto;
   }
   .secondary-button {
-	width: 60%;
+	width: 50%;
 	background-color: #E5E7EB;
 	border: 0 solid #7E3F8F;
 	color: #7E3F8F;
