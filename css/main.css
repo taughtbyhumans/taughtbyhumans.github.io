@@ -705,9 +705,9 @@ button.topic:disabled {
 	padding: 0.25rem 1rem;
 	margin: auto;
   }
-  .secondary-button h1, .secondary-button h2,   .secondary-button h3,  .secondary-button h4, .secondary-button p {
+  .secondary-button h1, .secondary-button h2,   .secondary-button h3,  .secondary-button h4, .secondary-button p, .secondary-button a {
 	color: #7E3F8F;
   }
-  .main-button h1, .main-button h2, .main-button h3, .main-button h4, .main-button p {
+  .main-button h1, .main-button h2, .main-button h3, .main-button h4, .main-button p, .main-button a {
 	color: white;
   }
