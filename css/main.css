@@ -717,3 +717,27 @@ button.topic:disabled {
   .main-button:hover {
 	color: white;
   }
+
+  .icon-links {
+	position: relative;
+	  font-size: 5em;
+	  margin-top: auto;
+	  margin-bottom: auto;
+	  padding: 5vh 5vw;
+	  color: #7E3F8F;
+	  /* border: 0 solid #7E3F8F; */
+	  
+	  /* border: solid 2px #7E3F8F; */
+  }
+  .icon-links:after {
+	content: '';
+	position: absolute;
+	border: 2px dashed #7E3F8F;
+	/* transform: rotate(-10deg); */
+	/* color: white; */
+	bottom: 4px;
+	left: 4px;
+	width: calc(100% - 1px);
+	height: calc(100% - 1px);
+  }
+  
